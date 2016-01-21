@@ -16,7 +16,7 @@ An example of use, using UDP port 25001:
 
 First, on receiving side:
 
-    ./udp-receiver 25001 &gt;got-packets.log &amp;
+    ./udp-receiver 25001 >got-packets.log &
 
 The, on the sending side:
 
